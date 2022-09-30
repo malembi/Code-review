@@ -8,19 +8,19 @@
   </head>
 
   <body id="body" style="text-align: center">
-    <h1 > freeCodeCamp Survey Form</h1>
+    <h1> FREECODECAMP SURVEY FORM</h1>
     <h2>Thank you for taking part.</h2>
     <div class="con">
 
-    <form style="background-color: rgba(27,27,50,0.8); max-width: 50rem;">
-      <label >Name</label>
-      <input type="text">
+    <form style="background-color: rgba(27,27,50,0.8); max-width: 50rem;" >
+      <label id="name-label" for="name">Name</label>
+      <input type="text" placeholder="Enter your name">
       <br>
-      <label >Email</label>
-      <input type="text">
+      <label id="emiail-label"  for="email">Email</label>
+      <input type="text" placeholder="Enter your email">
       <br>
-      <label >Age(optinal)</label><br>
-      <input type="number">
+      <label id="age-label" for="number" >Age(optinal)</label><br>
+      <input type="number" min="10" max="99" placeholder="Age">
      <br>
       <label >for which option describes you?</label><br>
       <select name="" id="">
@@ -32,7 +32,8 @@
         <option value="">Other</option>
       </select>
 <br />
-     <div>
+     <div class="form-group">
+      
       <input type="radio" name="Definetly" id="">Definetly
       <input type="radio" name="" id="">Maybe
       <input type="radio" name="" id="">Not Sure
@@ -50,17 +51,17 @@
 
     <br>
     <label for="">What would you like to see improved? (Check all that apply)</label>
-    <input type="checkbox" name="" id="">Front-end Projects
-    <input type="checkbox" name="" id="">Back-end Projects
-    <input type="checkbox" name="" id="">Data Visualization
-    <input type="checkbox" name="" id="">Challenges
-    <input type="checkbox" name="" id="">Open Source Community
+    <input type="checkbox" name="prefer" id="" class="input-checkbox">Front-end Projects
+    <input type="checkbox" name="prefer" id="" class="input-checkbox">Back-end Projects
+    <input type="checkbox" name="prefer" id="" class="input-checkbox">Data Visualization
+    <input type="checkbox" name="prefer" id="" class="input-checkbox">Challenges
+    <input type="checkbox" name="prefer" id="" class="input-checkbox">Open Source Community
 
     <br>
     <label for="">Any comments or suggestions?</label>
-    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your commment here..."></textarea>
+    <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your commment here..."></textarea>
     <br>
-    <button>Submit</button>
+    <button class="submit-button">Submit</button>
     </form>
     </div>
    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
