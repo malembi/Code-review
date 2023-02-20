@@ -23,7 +23,7 @@ h2{font-family: 'Franklin Gothic Medium';
 div{
 display:block;
 }
-  .input-radio,
+  .input-radio,,
 .input-checkbox {
   display: inline-flexbox;
   margin-right: 0.625rem;
